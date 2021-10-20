@@ -218,7 +218,8 @@ a:hover {
         width: 300px;
     }
     .title h1 {
-        font-size: 20px;
+        font-size: 30px;
+        max-width: 150px;
     }
     .text-info {
         padding-top: 2.5px;
