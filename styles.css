@@ -14,7 +14,8 @@ a:hover {
     --gradient-color-3: #f5f5f5;
     --gradient-color-4: #e59e9e;
     position: absolute;
-    background-size: cover;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
 }
 
 .grid-container {
