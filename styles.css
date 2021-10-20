@@ -20,7 +20,7 @@ a:hover {
     /* height: 100%; */
     min-height: 100vh;
     min-height: -webkit-fill-available;
-    min-width: -webkit-fill-available;
+    /* min-width: -webkit-fill-available; */
     --gradient-color-1: #ecb1b1;
     --gradient-color-2: #f05656;
     --gradient-color-3: #f5f5f5;
