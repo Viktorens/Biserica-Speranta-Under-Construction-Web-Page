@@ -6,6 +6,9 @@ a:hover {
     color: #F5F5F5;
 }
 
+
+/* Canva */
+
 #gradient-canvas {
     position: fixed;
     min-height: 100vh;
@@ -17,18 +20,8 @@ a:hover {
     --gradient-color-4: #e59e9e;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
-    background-color: #F5F5F5;
-}
 
-.grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    height: 100vh;
-    text-align: center;
-}
+/* Sabbath Column */
 
 .sabbath-column {
     position: fixed;
@@ -43,11 +36,17 @@ a:hover {
     justify-content: center;
 }
 
-.logo {
+
+/* Church Name */
+
+.church-name-logo {
     position: absolute;
     max-width: 45vh;
     margin: 10px;
 }
+
+
+/* Info Rectangle */
 
 .background-info {
     position: fixed;
@@ -84,6 +83,9 @@ a:hover {
     padding-top: 20px;
     font-size: 3vh;
 }
+
+
+/* Social Media */
 
 .wrapper {
     display: flex;
@@ -185,6 +187,22 @@ a:hover {
 }
 
 
+/* Grid for Developer mode */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    background-color: #F5F5F5;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    height: 100vh;
+    text-align: center;
+}
+
+
 /* --- Media Queries ---- */
 
 
@@ -240,7 +258,6 @@ a:hover {
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
-    /* .background-inf  */
     .title h1 {
         font-size: 60px;
     }
@@ -259,9 +276,6 @@ a:hover {
     .title h1 {
         font-size: 70px;
     }
-    /* .text-info {
-        font-size: 25px;
-    } */
 }
 
 
@@ -277,7 +291,4 @@ a:hover {
     .title h1 {
         font-size: 80px;
     }
-    /* .text-info {
-        font-size: 30px;
-    } */
 }
