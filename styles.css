@@ -226,10 +226,10 @@ a:hover {
         max-width: 70%;
     }
     .background-info {
-        width: 63ch;
+        width: 60ch;
     }
     .title h1 {
-        font-size: 50px;
+        font-size: 45px;
     }
     .text-info {
         font-size: 3vh;
@@ -240,9 +240,7 @@ a:hover {
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
-    .background-info {
-        width: 73ch;
-    }
+    /* .background-inf  */
     .title h1 {
         font-size: 60px;
     }
