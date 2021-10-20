@@ -1,3 +1,7 @@
+body {
+    height: calc(100vh - calc(100vh - 100%));
+}
+
 a {
     color: #F5F5F5;
 }
@@ -25,8 +29,6 @@ a:hover {
 
 .sabbath-column {
     position: fixed;
-    /* min-height: 100vh; */
-    /* min-height: -webkit-fill-available; */
     height: calc(100vh - calc(100vh - 100%));
     right: 0;
     width: 14.28%;
