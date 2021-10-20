@@ -1,11 +1,11 @@
-/* body {
+body {
     min-height: 100vh;
     min-height: -webkit-fill-available;
 }
 
 html {
     height: -webkit-fill-available;
-} */
+}
 
 a {
     color: #F5F5F5;
@@ -16,15 +16,16 @@ a:hover {
 }
 
 #gradient-canvas {
-    width: 100%;
+    width: 100vh;
     /* height: 100%; */
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    min-width: -webkit-fill-available;
     --gradient-color-1: #ecb1b1;
     --gradient-color-2: #f05656;
     --gradient-color-3: #f5f5f5;
     --gradient-color-4: #e59e9e;
     position: absolute;
-    min-height: 100vh;
-    min-height: -webkit-fill-available;
 }
 
 .grid-container {
