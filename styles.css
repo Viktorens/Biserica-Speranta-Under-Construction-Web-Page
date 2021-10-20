@@ -7,7 +7,7 @@ a:hover {
 }
 
 #gradient-canvas {
-    position: absolute;
+    position: fixed;
     width: 100%;
     min-height: 100vh;
     min-height: -webkit-fill-available;
@@ -27,7 +27,6 @@ a:hover {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     height: 100vh;
-    min-height: -webkit-fill-available;
     text-align: center;
 }
 
@@ -54,7 +53,6 @@ a:hover {
     position: fixed;
     bottom: 5vh;
     height: 40vh;
-    min-height: -webkit-fill-available;
     background: #D0021B;
     border-radius: 0 4vh 4vh 0;
 }
