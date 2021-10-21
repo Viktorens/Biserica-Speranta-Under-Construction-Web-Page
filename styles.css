@@ -33,6 +33,29 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1;
+}
+
+.sabbath-column:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: "";
+    border-radius: 4vh 0 0 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(-45deg, #FD2641 0%, #440000 100%);
+    z-index: -1;
+    transition: opacity 0.5s linear;
+    opacity: 0;
+}
+
+.sabbath-column:hover:before {
+    opacity: 1;
+    cursor: pointer;
 }
 
 
