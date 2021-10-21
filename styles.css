@@ -215,11 +215,11 @@ a:hover {
         width: 33ch;
     }
     .title {
-        width: 300px;
+        width: 150px;
+        bottom: 50%;
     }
     .title h1 {
-        font-size: 30px;
-        max-width: 150px;
+        font-size: 35px;
     }
     .text-info {
         padding-top: 2.5px;
