@@ -72,6 +72,7 @@ a:hover {
 .title h1 {
     font-family: 'Noto Sans';
     color: #252525;
+    font-weight: 600;
 }
 
 .text-info {
