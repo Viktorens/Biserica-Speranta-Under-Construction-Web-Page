@@ -61,7 +61,7 @@ a:hover {
 
 .church-name-logo {
     position: absolute;
-    left: 14%;
+    left: 13%;
     max-width: 40vh;
     margin: 10px 0 0 0;
 }
@@ -101,7 +101,7 @@ a:hover {
 
 .wrapper {
     display: flex;
-    padding: 2.5vh 0 2.5vh 0;
+    padding-top: 15px;
 }
 
 .button:nth-child(1) {
