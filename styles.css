@@ -1,9 +1,9 @@
 a {
-    color: #F5F5F5;
+    color: #252525;
 }
 
 a:hover {
-    color: #F5F5F5;
+    color: #f5f5f5;
 }
 
 
@@ -14,10 +14,10 @@ a:hover {
     min-height: 100vh;
     min-height: -webkit-fill-available;
     width: 100%;
-    --gradient-color-1: #ecb1b1;
-    --gradient-color-2: #f05656;
+    --gradient-color-1: #a6c0e8;
+    --gradient-color-2: #f7cdb5;
     --gradient-color-3: #f5f5f5;
-    --gradient-color-4: #e59e9e;
+    --gradient-color-4: #e8a491;
 }
 
 
@@ -28,8 +28,7 @@ a:hover {
     height: calc(100vh - calc(100vh - 100%));
     right: 0;
     width: 14.28%;
-    background-image: linear-gradient(-45deg, #440000 0%, #FD2641 100%);
-    border-radius: 4vh 0 0 4vh;
+    background-image: linear-gradient(-45deg, #cd4c27 0%, #f89f6d 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,11 +42,10 @@ a:hover {
     bottom: 0;
     left: 0;
     content: "";
-    border-radius: 4vh 0 0 4vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(-45deg, #FD2641 0%, #440000 100%);
+    background-image: linear-gradient(-45deg, #f89f6d 0%, #cd4c27 100%);
     z-index: -1;
     transition: opacity 0.5s linear;
     opacity: 0;
@@ -70,20 +68,18 @@ a:hover {
 
 /* Info Rectangle */
 
-.background-info {
+
+/* .background-info {
     position: fixed;
     bottom: 5vh;
     height: 40vh;
-    background: #D0021B;
-    border-radius: 0 4vh 4vh 0;
-}
+    background: transparent;
+} */
 
 .info {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-    position: relative;
+    position: fixed;
+    bottom: 5vh;
+    left: 14.28%;
 }
 
 .title {
@@ -100,7 +96,7 @@ a:hover {
 
 .text-info {
     display: flex;
-    place-content: center;
+    place-content: left;
     font-family: 'Noto Sans';
     color: #F5F5F5 !important;
     padding-top: 20px;
@@ -112,23 +108,22 @@ a:hover {
 
 .wrapper {
     display: flex;
-    place-content: center;
     padding: 5vh 0 5vh 0;
 }
 
 .button:nth-child(1) {
     text-decoration: none;
-    color: #FF0000;
+    color: #252525;
 }
 
 .button:nth-child(2) {
     text-decoration: none;
-    color: #4267B2;
+    color: #252525;
 }
 
 .button:nth-child(3) {
     text-decoration: none;
-    color: #2196F3;
+    color: #252525;
 }
 
 .wrapper .button {
@@ -141,7 +136,6 @@ a:hover {
     border-radius: 50px;
     cursor: pointer;
     align-items: center;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.75);
     transition: all 0.3s ease-out;
 }
 
@@ -248,14 +242,32 @@ a:hover {
         padding-top: 2.5px;
         font-size: 2vh;
     }
+    .wrapper .button {
+        height: 50px;
+        width: 50px;
+    }
+    .wrapper .button .icon {
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+    }
+    .wrapper .button .icon i {
+        line-height: 50px;
+    }
+    .wrapper .button:hover {
+        width: 50px;
+    }
+    .wrapper .button .icon i {
+        font-size: 20px;
+    }
     .wrapper .button:nth-child(1):hover {
-        width: 60px;
+        width: 50px;
     }
     .wrapper .button:nth-child(2):hover {
-        width: 60px;
+        width: 50px;
     }
     .wrapper .button:nth-child(3):hover {
-        width: 60px;
+        width: 50px;
     }
 }
 
