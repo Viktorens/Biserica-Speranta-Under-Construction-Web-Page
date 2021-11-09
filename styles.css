@@ -61,21 +61,13 @@ a:hover {
 
 .church-name-logo {
     position: absolute;
-    left: 14.28%;
+    left: 14%;
     max-width: 40vh;
     margin: 10px 0 0 0;
 }
 
 
 /* Info Rectangle */
-
-
-/* .background-info {
-    position: fixed;
-    bottom: 5vh;
-    height: 40vh;
-    background: transparent;
-} */
 
 .info {
     position: fixed;
