@@ -247,6 +247,30 @@ a:hover {
 }
 
 
+/* Footer */
+
+footer {
+    position: absolute;
+    bottom: 0vh;
+    text-align: initial;
+}
+
+
+/* Copyright */
+
+.copyright {
+    /* font-size: 15px; */
+    cursor: pointer;
+    text-decoration: #252525;
+    color: #252525;
+}
+
+.copyright:hover {
+    color: #252525;
+    text-decoration: underline;
+}
+
+
 /* --- Media Queries ---- */
 
 
@@ -296,6 +320,9 @@ a:hover {
     .wrapper .button:nth-child(3):hover {
         width: 50px;
     }
+    /* .copyright {
+        font-size: 1px;
+    } */
 }
 
 
