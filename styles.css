@@ -259,7 +259,7 @@ footer {
 /* Copyright */
 
 .copyright {
-    /* font-size: 15px; */
+    max-width: 90%;
     cursor: pointer;
     text-decoration: #252525;
     color: #252525;
