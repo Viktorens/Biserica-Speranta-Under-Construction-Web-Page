@@ -78,7 +78,7 @@ a:hover {
 .title {
     position: fixed;
     left: 14.28%;
-    bottom: 50%;
+    bottom: 55%;
 }
 
 .title h1 {
@@ -259,7 +259,7 @@ footer {
 /* Copyright */
 
 .copyright {
-    max-width: 90%;
+    width: 85.72%;
     cursor: pointer;
     text-decoration: #252525;
     color: #252525;
@@ -294,31 +294,31 @@ footer {
         font-size: 2vh;
     }
     .wrapper .button {
-        height: 50px;
-        width: 50px;
+        height: 40px;
+        width: 40px;
     }
     .wrapper .button .icon {
-        height: 50px;
-        width: 50px;
-        line-height: 50px;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
     }
     .wrapper .button .icon i {
-        line-height: 50px;
+        line-height: 40px;
     }
     .wrapper .button:hover {
-        width: 50px;
+        width: 40px;
     }
     .wrapper .button .icon i {
-        font-size: 20px;
+        font-size: 15px;
     }
     .wrapper .button:nth-child(1):hover {
-        width: 50px;
+        width: 40px;
     }
     .wrapper .button:nth-child(2):hover {
-        width: 50px;
+        width: 40px;
     }
     .wrapper .button:nth-child(3):hover {
-        width: 50px;
+        width: 40px;
     }
     /* .copyright {
         font-size: 1px;
