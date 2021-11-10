@@ -259,7 +259,8 @@ footer {
 /* Copyright */
 
 .copyright {
-    width: 85.72%;
+    max-width: 85vw;
+    font-size: 15px;
     cursor: pointer;
     text-decoration: #252525;
     color: #252525;
@@ -320,9 +321,9 @@ footer {
     .wrapper .button:nth-child(3):hover {
         width: 45px;
     }
-    /* .copyright {
-        font-size: 1px;
-    } */
+    .copyright {
+        font-size: 10px;
+    }
 }
 
 
